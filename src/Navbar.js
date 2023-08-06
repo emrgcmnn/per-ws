@@ -36,7 +36,7 @@ const Navbar = () =>  {
                 
                 <div>            
                     <div className='text-white font-medium md:flex hidden'>
-                        <NavLink className='p-2 mx-1 hover:bg-slate-600 rounded-lg' to="/Anasayfa">Ana Sayfa</NavLink>
+                        <NavLink className='p-2 mx-1 hover:bg-slate-600 rounded-lg' to="/Anasayfa">HOME</NavLink>
                         <NavLink className='p-2 mx-1 hover:bg-slate-600 rounded-lg' to="/Hakkımda">Hakkımda</NavLink>
                         <NavLink className='p-2 mx-1 hover:bg-slate-600 rounded-lg' to="/Islerim">İşlerim</NavLink>
                         <NavLink className='p-2 mx-1 hover:bg-slate-600 rounded-lg' to="/Iletisim">İletişim</NavLink>
