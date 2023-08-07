@@ -36,10 +36,10 @@ const Navbar = () =>  {
                 
                 <div>            
                     <div className='text-white font-medium md:flex hidden'>
-                        <NavLink className='p-2 mx-1 hover:bg-slate-600 rounded-lg' to="/Anasayfa">HOME</NavLink>
-                        <NavLink className='p-2 mx-1 hover:bg-slate-600 rounded-lg' to="/Hakkımda">Hakkımda</NavLink>
-                        <NavLink className='p-2 mx-1 hover:bg-slate-600 rounded-lg' to="/Islerim">İşlerim</NavLink>
-                        <NavLink className='p-2 mx-1 hover:bg-slate-600 rounded-lg' to="/Iletisim">İletişim</NavLink>
+                        <NavLink className='p-2 mx-1 hover:bg-slate-600 rounded-lg' to="/Anasayfa">Home</NavLink>
+                        <NavLink className='p-2 mx-1 hover:bg-slate-600 rounded-lg' to="/Hakkımda">About</NavLink>
+                        <NavLink className='p-2 mx-1 hover:bg-slate-600 rounded-lg' to="/Islerim">Projects</NavLink>
+                        <NavLink className='p-2 mx-1 hover:bg-slate-600 rounded-lg' to="/Iletisim">Contact</NavLink>
                     </div>
                 </div>
                 
@@ -48,9 +48,9 @@ const Navbar = () =>  {
                     duration-300 ${open ? 'top-[60px]' : 'top-[-100%] '}`
                         }
                 >                     
-                    <NavLink onClick={handleLinkClick}  to="/Hakkımda" className='block p-3 m-1 font-extrabold text-slate-200 hover:bg-slate-200 hover:text-gray-800 rounded-full  ' >Hakkımda</NavLink>
-                    <NavLink onClick={handleLinkClick}  to="/Islerim" className='block p-3 m-1 font-extrabold text-slate-200 hover:bg-slate-200 hover:text-gray-800 rounded-full '>Islerim</NavLink>
-                    <NavLink onClick={handleLinkClick}  to="/Iletisim" className='block p-3 m-1 font-extrabold text-slate-200 hover:bg-slate-200 hover:text-gray-800 rounded-full '>İletişim</NavLink>
+                    <NavLink onClick={handleLinkClick}  to="/Hakkımda" className='block p-3 m-1 font-extrabold text-slate-200 hover:bg-slate-200 hover:text-gray-800 rounded-full  ' >About</NavLink>
+                    <NavLink onClick={handleLinkClick}  to="/Islerim" className='block p-3 m-1 font-extrabold text-slate-200 hover:bg-slate-200 hover:text-gray-800 rounded-full '>Projects</NavLink>
+                    <NavLink onClick={handleLinkClick}  to="/Iletisim" className='block p-3 m-1 font-extrabold text-slate-200 hover:bg-slate-200 hover:text-gray-800 rounded-full '>Contact</NavLink>
                     
                 </div>
             </div>

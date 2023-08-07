@@ -14,10 +14,18 @@ export default function Islerim () {
               <span class="text-gray-700">You can access the game from the link below.</span>
             </div>
           </div>
-          <div class="py-2 px-6 bg-gray-100 flex">
-            <div>Google Play : </div>
-            <a className=" text-blue-700 font-bold" target="_blank" href="https://play.google.com/store/apps/details?id=com.milkbrogame.ffversion"> Link</a>
+          <div class="py-2 px-6 bg-gray-100 flex justify-between ">
+          <div className="flex">
+              <div>Google Play : </div>
+              <a className=" text-blue-700 font-bold" target="_blank" href="https://play.google.com/store/apps/details?id=com.milkbrogame.ffversion"> Link</a>
+            </div>
+            <div className="flex">
+              <div>APK : </div>
+              <a className=" text-blue-700 font-bold" target="_blank" href="https://drive.google.com/file/d/1pWyt8jIJnmhEwMUdl49kOTFUpXA3TDpg/view?usp=sharing"> Link</a>
+            </div>
+           
           </div>
+          
         </div>
       </div>
     
