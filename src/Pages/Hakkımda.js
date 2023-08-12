@@ -1,5 +1,5 @@
 import Untiy from '../unity.png'
-import Frontend from '../fe.png'
+import Frontend from '../frontend.png'
 import Navbar from "../Navbar"
 import React from 'react';
 
