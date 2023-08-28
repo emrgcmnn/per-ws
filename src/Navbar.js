@@ -26,11 +26,11 @@ const Navbar = () =>  {
                     
                     <div className='w-16 hover:cursor-pointer '>
                         <NavLink to="/Anasayfa">
-                            <img src={Image} alt="" />
+                            <img src={Image} alt="Logo"  />
                         </NavLink>                  
                     </div>
                     <div className='w-9 mr-5 md:hidden '  onClick={()=> setOpen(!open)}>                    
-                                <img src={Burger} alt="" />
+                                <img src={Burger} alt="Logo" />
                     </div>
                 </div>
                 

@@ -7,7 +7,7 @@ export default function Hakkımda () {
   return (<>
     <div class="container mx-auto px-4 py-8">
     <div class="max-w-md mx-auto bg-white rounded-lg shadow-md p-6">
-      <h1 class="text-3xl font-bold mb-4">I am Emre Göçmen</h1>
+      <h1 class="text-3xl font-bold mb-4">I'm Emre Göçmen</h1>
       <p class="text-gray-600 mb-4">I am Emre from Turkey. I live in Istanbul and  I'm 30 years old.</p>
       <p class="text-gray-600 mb-4">In 2016, I graduated from Düzce University, 
       Department of Tourism and Hotel Management. I
@@ -31,7 +31,7 @@ export default function Hakkımda () {
       
       <div className='my-6 border border-gray-300 rounded-lg p-4'>
         <div className=' flex'>
-          <img className='w-8  h-6  mr-2' src={Frontend}></img>
+          <img className='w-8  h-6  mr-2' src={Frontend} alt="Logo"></img>
           <h1 class="text-gray-600 font-medium mb-4">Front-End Developer Course </h1>
         </div>
         <h1 class="text-gray-600">Instructors : Team Laba-Turkey , Sinan Mutlu, Taha Selim Aksakal</h1>
@@ -40,7 +40,7 @@ export default function Hakkımda () {
 
      <div className='my-6 border border-gray-300 rounded-lg p-4'>
         <div className='flex'>
-          <img className=' h-6 w-12 mr-2' src={Untiy}></img>
+          <img className=' h-6 w-12 mr-2' src={Untiy} alt="Logo"></img>
           <h1 class="text-gray-600 font-medium mb-4">Complate C# Unity Game Developer </h1>
         </div>
         <h1 class="text-gray-600">Instructors : GameDev.tv Team, Rick Davidson, Garry Pettie</h1>
@@ -49,7 +49,7 @@ export default function Hakkımda () {
 
      <div className='my-6 border border-gray-300 rounded-lg p-4'>
         <div className='flex'>
-          <img className='h-6 w-12 mr-2 ' src={Untiy}></img>
+          <img className='h-6 w-12 mr-2 ' src={Untiy} alt="Logo"></img>
           <h1 class="text-gray-600 font-medium mb-4">Unity C# Sıfırdan 2D & 3D Oyun Geliştirme Eğitimi </h1>
         </div>
         <h1 class="text-gray-600">Instructors : Jankat Gürbüz</h1>
@@ -58,7 +58,7 @@ export default function Hakkımda () {
 
        <div className='my-6 border border-gray-300 rounded-lg p-4'>
         <div className='flex'>
-          <img className='h-6 w-12 mr-2 ' src={Untiy}></img>
+          <img className='h-6 w-12 mr-2 ' src={Untiy} alt="Logo"></img>
           <h1 class="text-gray-600 font-medium mb-4">Unity C# 2D Oyun Geliştirme Eğitimi</h1>
         </div>
         <h1 class="text-gray-600">Instructors : Kadir Kobak</h1>
