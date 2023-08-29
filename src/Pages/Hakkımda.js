@@ -35,7 +35,7 @@ export default function Hakkımda () {
           <h1 class="text-gray-600 font-medium mb-4">Front-End Developer Course </h1>
         </div>
         <h1 class="text-gray-600">Instructors : Team Laba-Turkey , Sinan Mutlu, Taha Selim Aksakal</h1>
-        <a className=" text-blue-700 font-bold " target="_blank" href="https://laba.com.tr/"> Link</a>
+        <a className=" text-blue-700 font-bold " target="_blank" href="https://laba.com.tr/certificate/8dadf163909f73f98e5d791e9e26c673"> Link</a>
      </div>   
 
      <div className='my-6 border border-gray-300 rounded-lg p-4'>
