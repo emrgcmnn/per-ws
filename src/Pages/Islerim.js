@@ -1,11 +1,35 @@
-
+import Markalogo from '../ShortLogo.png'
 
 export default function Islerim () {
   return (
     <div class="flex flex-wrap justify-center items-center h-screen">
       
+      <div class="max-w-sm w-full md:w-1/2 p-4">
+        <div class="bg-white opacity-80 shadow-lg rounded-lg overflow-hidden h-[420px]">
+          <img src={Markalogo} alt="" class="w-full h-48 object-contain"/>
+          <div class="py-4 px-6">
+            <h2 class="text-xl font-semibold text-gray-800">MARKALOGO</h2>
+            <p class="mt-2 text-gray-600">I designed the website for the company named MarkaLogo. </p>
+            <div class="mt-4">
+              <span class="text-gray-700">You can visit the webpage from the links below and review the code on GitHub.</span>            
+            </div>
+          </div>
+          <div class="py-2 px-6 bg-gray-100 flex justify-between ">
+          <div className="flex">
+              <div>Web Site : </div>
+              <a className=" text-blue-700 font-bold" target="_blank" href="https://markalogo.vercel.app"> Link</a>
+            </div>
+            <div className="flex">
+              <div>Git Hub : </div>
+              <a className=" text-blue-700 font-bold" target="_blank" href="https://github.com/emrgcmnn/markalogo"> Link</a>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+
       <div class="max-w-sm w-full md:w-1/2  p-4 ">
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden  h-[420px]">
+        <div class="bg-white opacity-80 shadow-lg rounded-lg overflow-hidden  h-[420px]">
           <img src="https://play-lh.googleusercontent.com/oardrF44PlE16HC9icfjFi3IohmKRHbDIblGMrHj2UmPJ8A7RXNz3Vfh4N8JKxFnSQ=w240-h480" alt="" class="w-full h-48 pt-3 object-contain"/>
           <div class="py-4 px-6">
             <h2 class="text-xl font-semibold text-gray-800">UNITY 3D</h2>
@@ -30,7 +54,7 @@ export default function Islerim () {
       </div>
     
       <div class="max-w-sm w-full md:w-1/2 p-4">
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden h-[420px]">
+        <div class="bg-white opacity-80 shadow-lg rounded-lg overflow-hidden h-[420px]">
           <img src="https://wordvice-wp-static.s3-ap-northeast-1.amazonaws.com/uploads/2019/01/LinkedIn_HP.jpg" alt="" class="w-full h-48 object-contain"/>
           <div class="py-4 px-6">
             <h2 class="text-xl font-semibold text-gray-800">LINKEDIN</h2>
@@ -52,6 +76,8 @@ export default function Islerim () {
           </div>
         </div>
       </div>
+
+      
     </div>
 
   )

@@ -44,7 +44,7 @@ const Navbar = () =>  {
                 </div>
                 
                 <div 
-                    className={` md:hidden drop-shadow-md  right-0 bg-gray-800   absolute rounded-b-lg w-auto h-min bottom-0 
+                    className={` md:hidden z-40 drop-shadow-md  right-0 bg-gray-800   absolute rounded-b-lg w-auto h-min bottom-0 
                     duration-300 ${open ? 'top-[60px]' : 'top-[-100%] '}`
                         }
                 >                     
