@@ -1,6 +1,6 @@
 ## MY WEB SİTE
  
- ![Example Image](./src/eg-web-ekran.png)
+
 
  # ENG
 
