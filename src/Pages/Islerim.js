@@ -1,4 +1,5 @@
 import Markalogo from '../ShortLogo.png'
+import FoolFish from '../foolfishimg.png'
 
 export default function Islerim () {
   return (
@@ -30,7 +31,7 @@ export default function Islerim () {
 
       <div class="max-w-sm w-full md:w-1/2  p-4 ">
         <div class="bg-white opacity-80 shadow-lg rounded-lg overflow-hidden  h-[420px]">
-          <img src="https://play-lh.googleusercontent.com/oardrF44PlE16HC9icfjFi3IohmKRHbDIblGMrHj2UmPJ8A7RXNz3Vfh4N8JKxFnSQ=w240-h480" alt="" class="w-full h-48 pt-3 object-contain"/>
+          <img src={FoolFish} alt="" class="w-full h-48 pt-3 object-contain"/>
           <div class="py-4 px-6">
             <h2 class="text-xl font-semibold text-gray-800">UNITY 3D</h2>
             <p class="mt-2 text-gray-600">My game named Fool Fish, which I developed with unity program</p>
