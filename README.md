@@ -1,14 +1,16 @@
 ## MY WEB SİTE
- # First version
+ 
+ ![Example Image](./src/eg-web-ekran.png)
 
- first version 06.08.23
+ # ENG
 
- after clone to 
+ ### You can visit my website where my resume, certificates, and projects are showcased through the link below.   
 
-npm install
 
-npm install -g create-react-app
+ # TR
+ 
+ ### Kendi öz geçmişim, sertifikalarım ve projelerimin yer aldığı web sitemi aşağıdaki bağlantıdan ziyaret edebilirsiniz.
 
-npm install --save react react-dom
 
+ [LİNK](https://per-ws.vercel.app)
  [LİNKEDİN](https://www.linkedin.com/in/emrgcmn/)
