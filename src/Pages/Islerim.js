@@ -18,7 +18,7 @@ export default function Islerim () {
           <div class="py-2 px-6 bg-gray-100 flex justify-between ">
           <div className="flex">
               <div>Web Site : </div>
-              <a className=" text-blue-700 font-bold" target="_blank" href="https://markalogo.vercel.app"> Link</a>
+              <a className=" text-blue-700 font-bold" target="_blank" href="https://markalogo.com"> Link</a>
             </div>
             <div className="flex">
               <div>Git Hub : </div>
