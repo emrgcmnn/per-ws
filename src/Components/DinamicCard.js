@@ -3,8 +3,8 @@ function DynamicCard({ title, des1, des2, imageUrl, LinkName1, Link1, LinkName2,
       
         
       
-      <div class="p-4 ">
-      <div class="bg-white opacity-80 shadow-lg rounded-lg overflow-hidden md:h-[460px] h-auto">
+      <div class="max-w-sm w-full p-4">
+      <div class="bg-white opacity-80 shadow-lg rounded-lg overflow-hidden flex flex-col">
         <img src={imageUrl} alt="" class="w-full h-48 p-4 object-contain"/>
         <div class="py-4 px-6">
           <h2 class="text-xl font-semibold text-gray-800">{title}</h2>

@@ -53,13 +53,17 @@ function Islerim() {
   ];
 
   return (
-    <div className='flex flex-wrap'>
-    {cardData.map((data, index) => (
-      <div key={index} className='w-full md:w-1/2 p-4'>
-        <Dynamic {...data} />
-      </div>
-    ))}
+    <div className="flex items-center justify-center min-h-screen">
+    <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+      {cardData.map((data, index) => (
+        <div className="flex flex-col">
+          <Dynamic key={index} {...data} />
+        </div>
+      ))}
+    </div>
   </div>
+  
+  
   );
 }
 
