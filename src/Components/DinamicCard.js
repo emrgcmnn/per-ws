@@ -14,14 +14,14 @@
             </div>
             </div>
             <div class="py-2 px-6 bg-gray-100 flex justify-between mb-4 ">
-            <div className="flex">
-                <div>Linkedin : </div>
-                <a className=" text-blue-700 font-bold" target="_blank" href={Link1}> {LinkName1}</a>
+            <div >
+                <a className="text-blue-700 font-bold" target="_blank" rel="noopener noreferrer" href={Link1}> {LinkName1}</a>
             </div>
             
-            <div className="flex">
-                <div>Github : </div>
-                <a className=" text-blue-700 font-bold" target="_blank" href={Link2}> {LinkName2}</a>
+            <div >
+
+                <a className="text-blue-700 font-bold" target="_blank" rel="noopener noreferrer" href={Link2}> {LinkName2}</a>
+
             </div>
             </div>
         </div>

@@ -3,9 +3,20 @@ import Dynamic from '../Components/DinamicCard'
 
 import Markalogo from '../ShortLogo.png'
 import FoolFish from '../foolfishimg.png'
+import qrlink from '../qrcode.jpeg'
 
 function Islerim() {
   const cardData = [
+    {
+      imageUrl: qrlink,
+      title: 'RESTOURANT MENU',
+      des1: "In my project, I created a restaurant menu using the dataset I stored on Firebase.",
+      des2: 'In the admin panel, data that is processed and updated is automatically transferred to the menu page. Additionally, if access to the admin panel is not granted, users are automatically redirected to the login page.',
+      LinkName1: 'Github ',
+      Link1: ' https://github.com/emrgcmnn/menu-project',
+      LinkName2: 'In Video  ',
+      Link2: ' https://www.linkedin.com/feed/update/urn:li:activity:7118264615603482624/?originTrackingId=PiFwcIMYReiYY%2FoCPINVfA%3D%3D',
+    },
     {
       imageUrl: 'https://www.star.com.tr/images/star-logo.png',
       title: 'STAR HABER CLONE',
@@ -63,15 +74,16 @@ function Islerim() {
   ];
 
   return (
-  <div className="flex items-center justify-center min-h-screen">
-  <div className='grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch'>
+ <div className="flex items-center justify-center min-h-screen">
+  <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
     {cardData.map((data, index) => (
-      <div className="flex flex-col h-full" key={index}>
+      <div className="flex flex-col" key={index}>
         <Dynamic {...data} />
       </div>
     ))}
   </div>
 </div>
+
   
   
   );
