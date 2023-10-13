@@ -44,7 +44,7 @@ function Islerim() {
       des1: 'I designed the website for the company named MarkaLogo.',
       des2: 'You can visit the webpage from the links below and review the code on GitHub.',
       LinkName1: 'Web Site  ',
-      Link1: ' https://markalogo.com',
+      Link1: ' https://markalogo.com.tr',
       LinkName2: 'Github  ',
       Link2: ' https://github.com/emrgcmnn/markalogo',
     },
